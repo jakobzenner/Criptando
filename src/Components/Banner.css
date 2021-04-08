@@ -1,0 +1,15 @@
+body {
+   background-color: black;
+   height: 300px;
+
+}
+
+.foto {
+    background-image: url('../img/bitcoin1-1\ 1.png');
+    background-repeat: no-repeat;
+    height:320px;
+    width:100%;
+    margin: 0 3px;
+
+
+}

@@ -1,0 +1,104 @@
+.container {
+  display: flex;
+  flex-flow: row;
+
+}
+
+section {
+    background-color:white;
+    padding-bottom: 100px;
+
+}
+
+h1 {
+    padding-top: 60px;
+    padding-left: 100px;
+    margin-top: 0;
+    text-align: left;
+    font-family: 'Sawarabi Gothic', sans-serif;
+    font-size:38px;
+}
+
+p {
+    padding-left: 100px;
+    text-align:justify;
+    line-height:28px;  
+    font-family: 'Sawarabi Gothic', sans-serif;
+    font-size:20px;
+  
+}
+
+.content-moedas {
+    display: flex;
+    flex-flow: column;
+    width: 70%;
+    padding-right: 100px;
+}
+
+.propaganda {
+    background-color: white;
+    width:30%;
+    height:1800px;
+    padding-right:50px;
+
+}
+
+.oferta {
+    padding-bottom: 15px;
+    border-bottom: 3px solid rgba(128, 128, 128, 0.562);
+
+}
+
+.heading-menu {
+    padding-left: 0;
+    padding-right: 50px;
+    text-align: center;
+    color: white;
+    background-color:black;
+    padding-bottom: 50px;
+}
+
+h3 {
+    padding-top: 50px;
+    font-size: 33px;
+    padding-bottom: 50px;
+
+}
+
+.guia > p {
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 50px;
+}
+
+.sobreNos > p{
+        padding-left: 200px;
+        padding-right: 200px;
+        padding-bottom: 50px;
+    
+}
+
+.email {
+    text-align: center;
+    font-size:33px;
+    padding-right: 150px;
+
+}
+
+.icons {
+    padding-right:100px;
+}
+
+i {
+    font-size:50px;
+    padding-top: 40px;
+    padding-left:50px;
+    color:black;
+}
+
+.oiFibra {
+   background-image: url('../img/Oi-fibra-1-1\ \(1\).jpeg');
+   height:400px;
+   width:550px;
+
+}
