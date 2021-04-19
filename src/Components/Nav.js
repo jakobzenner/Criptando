@@ -5,7 +5,7 @@ const Nav = () => {
 
         <div>
         <ul>
-            <li><div className="logo"> </div></li>
+            <li><div className="logo" id={"inicio"}> </div></li>
             <li><a href="#moedas">Moedas</a></li>
             <li><a href="#guia">Guia do Investidor</a></li>
             <li><a href="#sobreNos">Sobre Nós</a></li>

@@ -1,17 +1,23 @@
 import './App.css';
-import Nav from './Components/Nav';
-import Banner from './Components/Banner';
-import Content from './Components/Content';
+import SobreNos from './Components/SobreNos';
+import Contato from './Components/Contato';
+import Guia from './Components/Guia';
+import Moedas from './Components/Moedas';
 import Footer from './Components/Footer';
+import Nav from './Components/Nav';
      
 function App() {
   return (
     <div className="App">
-      
-    <Nav />
-    <Banner />
-    <Content />
-    <Footer />
+       
+     
+     <Moedas />
+     <Guia />
+     <SobreNos />
+     <Contato />
+     <Footer />
+
+   
 
     </div>
   );

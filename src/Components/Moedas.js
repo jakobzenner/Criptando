@@ -1,15 +1,21 @@
-import './Content.css';
+import './Moedas.css';
+import React from "react";
+import Nav from './Nav';
+import Banner from './Banner';
 
-const Content = () => {
+
+const Moedas = () => {
     return (
        <div>
+           <Nav />
+           <Banner />
            <div className="container">
-           <section className="content-moedas" id={"moedas"}>
+           <section className="content-moedas">
 
     
 {/* Erster Paragraph von Content */}
 
-           <h1>Criptomoedas</h1>
+           <h1 id={"moedas"}>Criptomoedas</h1>
            <p>O biticoin foi feito em uma rede de Blockchain criada por um grupo de desenvolvedores cujo o líder foi o Satoshi Nakamoto. Assim nasceu a primeira criptomoeda a entrar em circulação  no mundo digital. Hoje em dia ela não é  mais a única.<br />
 
 <br />O biticoin se transformou em uma nova classe de ativos, chamadas criptomoedas. Essas moedas digitais descentralizadas  nasceram em 2009.<br />
@@ -57,44 +63,10 @@ Idealizado para criar uma forma de dinheiro totalmente eletrônico o bitcoin ape
 
            </div>
 
-           <section className="guia" id={"guia"} >
-            <h1 className="heading-menu" >Guia do investidor</h1>
-            <h3>Como investir o seu dinheiro em Criptomoedas ?</h3>
-            <p>Pode-se ivestir em Bitcoins e em outras criptomoedas de algumas formas.É possível comprar cotas de fundos de criptomoedas, negociá-las em uma corretora especializada (conhecida também como exchange),aceitando as moedas digitais como forma de pagamento ou minerando.<br />
-
-<br />Adiquirir as cotas de fundos é uma das maneira mais simples.<br />
-
-<br />Esses tipos de carteiras são distribuídas por corretoras e plataformas de investimento, sendo que algumas demandam aplicações de valor relativamente baixo (de R$ 5.000 ou até menos). Os fundos podem ser uma alternativa positiva para quem quer se expor ao mercado das moedas virtuais, quem decide e acompanha essas aplicações é um gestor especializado.<br />
-
-<br />Uma outra maneira simples de investir em Bitcoins e outras criptomoedas é por meio de uma corretora especializada. Existe algumas no Brasil, chamadas exchanges, que oferecem esse tipo de serviço. Nesse caso o primeiro passo é abrir uma conta  na exchange, preenchendo o cadastro com dados pessoais. Talvez seja necessário validar a identidade do investidor.
-</p>
-
-           </section>
-
-           <section className="sobreNos" id={"sobreNos"}>
-            <h1 className="heading-menu">Sobre Nós</h1>
-            <h3>Quem somos?</h3>
-            <p>Somos um portal voltado ao estudo e desenvolvimento de boas praticas no mercado de moedas virtuais. Desta forma, além de axiliar os nossos visitantes a optimizar e seus lucros e investimento, aconselhar também pessoas físicas e jurídicas a dar o primeiro passo nesse mercado que cresce a cada dia. Aqui você encontra também ofertas diversas de produtos e serviços para pessoas físicas e jurídicas na nossa  seção de propagandas.</p>
-
-           </section>
-
-           <section className="contato" id={"contato"}>
-            <h1 className="heading-menu">Contato</h1>
-            <h3>Nosso endereço é virtual:</h3>
-            <p className="email">contato@criptando.com</p>
-
-            <div className="icons"> 
-            <a href=""><i class="fab fa-facebook"></i></a>
-            <a href=""><i class="fas fa-envelope-open-text"></i></a>
-            <a href=""><i class="fab fa-instagram"></i></a>
-
-            </div>
-
-           </section>
 
        </div>
 
     )
 };
 
-export default Content;
+export default Moedas;
